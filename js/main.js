@@ -1,15 +1,18 @@
 ;
 (function () {
+    var imgurl = 'http://think2011.qiniudn.com/great2015-';
+    // var imgurl = 'imgs/';
+
     var game = window.game = {
         res: [
-            {id: "title", size: 1, src: "imgs/title.png"},
-            {id: "bg1", size: 1, src: "imgs/bg_01.png"},
-            {id: "bg2", size: 1, src: "imgs/bg_02.png"},
-            {id: "bg3", size: 1, src: "imgs/bg_03.png"},
-            {id: "playBtn", size: 1, src: "imgs/play.png"},
-            {id: "gift", size: 1, src: "imgs/gift.png"},
-            {id: "alert", size: 1, src: "imgs/alert.png"},
-            {id: "bike", size: 1, src: "imgs/bike.png"}
+            {id: "title", size: 1, src: imgurl + "title.png"},
+            {id: "bg1", size: 1, src: imgurl + "bg_01.png"},
+            {id: "bg2", size: 1, src: imgurl + "bg_02.png"},
+            {id: "bg3", size: 1, src: imgurl + "bg_03.png"},
+            {id: "playBtn", size: 1, src: imgurl + "play.png"},
+            {id: "gift", size: 1, src: imgurl + "gift.png"},
+            {id: "alert", size: 1, src: imgurl + "alert.png"},
+            {id: "bike", size: 1, src: imgurl + "bike.png"}
         ],
         fps: 60,
         width: 320,
