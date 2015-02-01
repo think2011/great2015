@@ -168,6 +168,8 @@
         confirm(str) ? this.replay(true) : this.replay();
     };
 
-
-    game.init();
+    
+    window.onload = function () {
+        game.init();
+    }
 })();
